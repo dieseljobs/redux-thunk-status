@@ -1,4 +1,3 @@
-import update from 'immutability-helper'
 import {
   SET_LOADING
 } from './actionTypes'
@@ -8,7 +7,7 @@ const createReducer = () => {
   const behaviors = {
     [SET_LOADING]( state, { key, val } ) {
       const newKeyState = Object.assign( {}, state[key], { loading: val } )
-      
+
       return Object.assign( {}, {
         [ key ]: newKeyState
       })
