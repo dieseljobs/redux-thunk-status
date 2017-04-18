@@ -9,6 +9,10 @@
     "test": "mocha $npm_package_options_mocha",
     "test:watch": "npm test -- --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dieseljobs/redux-thunk-status.git"
+  },
   "author": "Aaron Kaczmarek <aaronmichaelmusic@gmail.com>",
   "license": "ISC",
   "options": {
