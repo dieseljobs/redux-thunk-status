@@ -8,7 +8,7 @@ const createReducer = () => {
     [SET_LOADING]( state, { key, val } ) {
       const newKeyState = Object.assign( {}, state[key], { loading: val } )
 
-      return Object.assign( {}, {
+      return Object.assign( {}, state, {
         [ key ]: newKeyState
       })
     }
