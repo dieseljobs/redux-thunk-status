@@ -6,5 +6,6 @@ export const {
   captureStatus,
   getStatus,
   getLoadingStatus,
-  reducer
+  reducer,
+  setLoading
 } = createAll()

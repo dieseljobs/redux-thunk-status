@@ -3,7 +3,8 @@ import { AwaitLoading,
         captureStatus,
         getStatus,
         getLoadingStatus,
-        reducer } from '../src'
+        reducer,
+        setLoading } from '../src'
 
 describe('redux-thunk-status', () => {
   it('exports AwaitLoading', () => {
@@ -21,5 +22,7 @@ describe('redux-thunk-status', () => {
   it('exports reducer', () => {
     expect(reducer).toBeTruthy()
   })
-
+  it('exports setLoading', () => {
+    expect(setLoading).toBeTruthy()
+  })
 })
