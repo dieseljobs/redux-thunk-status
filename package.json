@@ -1,6 +1,6 @@
 {
   "name": "redux-thunk-status",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple redux async action status management",
   "main": "dist/index.js",
   "scripts": {
